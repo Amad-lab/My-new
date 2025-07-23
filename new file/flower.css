@@ -10,17 +10,46 @@
   align-items: center;
   padding: 10px 40px;
   margin-left: 150px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .flex-nav{
   display: flex;
-  gap: 15px;
+  gap: 20px;
   color: rgb(34, 152, 215);
+  font-size: 1.2rem;
 }
 .flex-nav li{
   list-style: none;
 }
+.logo{
+  width: 100px;
+  height: auto;
+}
 .font{
   font-weight: 600;
   color: black;
+}
+
+/* banner */
+.banner{
+  display: flex;
+  margin-top: 45px;
+}
+.font-style{
+  margin-left: 160px;
+  margin-top: 108px;
+}
+.h1{
+  font-size: 3rem;
+}
+#span{
+  color: #E95A08;
+}
+.h2{
+  font-size: 3rem;
+  line-height: 5px;
+  color: #E95A08;
+}
+.pera{
+  font-size: 1.17em;
 }
