@@ -1,5 +1,9 @@
 
 
+.body{
+  width: 1100px;
+  height: 520px;
+}
 /* first one */
 .header{
    max-width: 1100px;
@@ -38,11 +42,12 @@
 .font-style{
   margin-left: 160px;
   margin-top: 108px;
+  
 }
 .h1{
   font-size: 3rem;
 }
-#span{
+.span{
   color: #E95A08;
 }
 .h2{
@@ -52,4 +57,59 @@
 }
 .pera{
   font-size: 1.17em;
+}
+
+/* Our plants */
+.main{
+ max-width: 1100px;
+}
+.align-text{
+text-align: center;
+margin-top: 75px;
+line-height: 15px;
+}
+.align-text h2{
+  font-size: 2.5rem;
+}
+.p2{
+  color: rgb(20, 109, 138);
+}
+
+/* lily Blossom */
+.img{
+  border: none;
+  max-width: max-content;
+  background-color: rgb(131, 186, 194);
+  text-align: center;
+}
+.text-color{
+  font-size: 1rem;
+  font-weight: 200;
+}
+.text-size{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.text-color, .text-size{
+line-height: 1px;
+}
+.button{
+ color: white;
+   background-color: #E95A08;
+  padding: 5px 78px;
+  font-size: 1em;
+  border: none;
+}
+.img img{
+width: 220px;
+  height: 250px;
+}
+ /* display grid */
+.lily{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+column-gap: 0; 
+  row-gap: 10px;
+   margin-left: 160px;
+   margin-top: 45px;
 }
