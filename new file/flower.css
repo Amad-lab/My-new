@@ -113,3 +113,34 @@ column-gap: 0;
    margin-left: 160px;
    margin-top: 45px;
 }
+
+/* plant lovers */
+
+.plant-lover{
+  display: flex;
+  margin-left: 160px;
+  gap: 15px;
+  margin-top: 140px;
+}
+.images{
+  width: 400px;
+  height: 400px;
+}
+.plants{
+  font-size: 2rem;
+  line-height: 10px;
+  margin-left: 45px;
+}
+.font-gap{
+  line-height: 30px;
+  font-size: 1.1em;
+  margin-left: 45px;
+  color: rgb(141, 164, 206);
+}
+.badge{
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  margin-top: -484px;
+  margin-left: -160px;
+}
