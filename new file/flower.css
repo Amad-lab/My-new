@@ -58,7 +58,6 @@
 .pera{
   font-size: 1.17em;
 }
-
 /* Our plants */
 .main{
  max-width: 1100px;
@@ -351,3 +350,182 @@ height: 25px;
 .flex-1{
 margin-left: 100px;
 }
+
+/* resposibe */
+
+
+   @media (max-width: 768px) {
+  .body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header,
+  .main,
+  .full-footer,
+  .news-latter {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .flexi {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .flex-nav {
+    gap: 10px;
+    font-size: 0.9rem;
+    padding-left: 0;
+    /display: none;
+ 
+  }
+.li-1, .li-2, .li-3{
+  display: none;
+}
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .font-style {
+    margin: 10px;
+  }
+
+  .h1, .h2 {
+    font-size: 2rem;
+  }
+
+  .pera {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+  }
+
+  .lily {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+
+  .img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .plant-lover {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+
+  .images {
+    width: 100%;
+    height: auto;
+  }
+
+  .plants,
+  .font-gap {
+    margin-left: 10px;
+  }
+
+  .badge {
+   display: none;
+  }
+
+  .deals {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .picture-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  .bloom1,.bloom3{
+    width: 400px;
+    margin-left: 55px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .bloom1 p,a{
+    margin-right: 80px;
+  }
+  .bloom3 p,a{
+     margin-right: 80px;
+  }
+  .bloom2{
+     width: 335px;
+     height: 170px;
+     margin-bottom: 30px;
+     margin-right: 10px;
+  }
+  .bloom2 a{
+margin-left: 60px;
+  }
+
+  .news-latter {
+    width: 100%;
+    height: auto;
+    padding: 30px 10px;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .form-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-wrapper input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form-wrapper button {
+    width: 100%;
+  }
+
+  .full-footer {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .footer-links, .footer-social {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .footer-logo{
+    margin: 0;
+  }
+
+  .flex-1, .flex-2 {
+    margin: 0;
+  flex-direction: row;
+  }
+
+  .footer-social {
+    justify-content: start;
+  }
+  
+  }
+
+
