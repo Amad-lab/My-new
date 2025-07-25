@@ -216,11 +216,11 @@ column-gap: 0;
   color: whitesmoke;
   border-radius: 15px;
 }
-.bloom1 p, .bloom2 p, .bloom3 p {
+.bloom1 p, .bloom3 p {
   font-weight: bold;
   font-size: 1.2rem;
 }
-.bloom1 a, .bloom2 a, .bloom3 a {
+.bloom1 a, .bloom3 a {
   color: white;
   text-decoration: underline;
   font-weight: bold;
@@ -228,6 +228,15 @@ column-gap: 0;
 }
 .bloom2 p {
   margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+  .bloom2 a{
+ color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.5rem;
+  }
 }
 .h5 {
   margin: 10px 0 0 0;
@@ -285,3 +294,60 @@ column-gap: 0;
 
 
 /* last one */
+
+
+.full-footer {
+width: 1150px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 10px;
+margin-top: 50px;
+}
+
+.footer-logo {
+flex: 1 1 250px;
+margin-left: 100px;
+}
+
+.footer-logo img {
+height: 50px;
+}
+
+.footer-logo p {
+margin-top: 20px;
+font-size: 16px;
+color: #777;
+line-height: 1.6;
+}
+
+
+.footer-links {
+display: flex;
+flex: 2 1 500px;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.footer-flex{
+color: #444;
+font-size: 15px;
+}
+
+.footer-social {
+display: flex;
+flex: 1 1 150px;
+gap: 12px;
+}
+
+.footer-social img {
+width: 25px;
+height: 25px;
+}
+
+.flex-2{
+  margin-right: 150px;
+}
+.flex-1{
+margin-left: 100px;
+}
