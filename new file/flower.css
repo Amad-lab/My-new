@@ -2,7 +2,7 @@
 
 .body{
   width: 1100px;
-  height: 520px;
+  height: 700px;
 }
 /* first one */
 .header{
@@ -144,3 +144,144 @@ column-gap: 0;
   margin-top: -484px;
   margin-left: -160px;
 }
+
+/* Latest Deals */
+
+.deals{
+  text-align: center;
+  margin-top: 80px;
+  line-height: 20px;
+  margin-left: 100px;
+}
+.deals h1{
+  font-size: 2.5rem;
+}
+.deals p{
+  font-size: 1.1rem;
+  color: rgb(106, 90, 66);
+}
+
+/* latest deals */
+
+.picture-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Common styles for all deal boxes */
+
+
+.bloom1, .bloom2, .bloom3 {
+  color: whitesmoke;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.bloom1 {
+  background-image: url("../assets/deal-bloom.png");
+  width: 300px;
+  height: 150px;
+  margin-left: 150px;
+  text-align: center;
+  flex-direction: column;
+}
+.bloom3 {
+  background-image: url("../assets/deal-ana.png");
+ width: 300px;
+  height: 150px;
+  margin-left: 150px;
+  text-align: center;
+   flex-direction: column;
+}
+.bloom2 {
+  background-image: url("../assets/deal-zabo.png");
+  width: 600px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+.bloom1 p, .bloom2 p, .bloom3 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.bloom1 a, .bloom2 a, .bloom3 a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.bloom2 p {
+  margin: 0;
+}
+.h5 {
+  margin: 10px 0 0 0;
+}
+
+/* footer part 1 */
+
+
+.news-latter {
+  background-image: url("../assets/news-letter-bg.png"); /* Replace with correct image path */
+  background-position: center;
+  width: 1255px;
+  height: 400px;
+  color: white;
+  margin-top: 70px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  text-align: center;
+}
+
+.news-latter h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.form-wrapper {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  width: 600px;
+  max-width: 70%;
+}
+
+.form-wrapper input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+}
+
+.form-wrapper button {
+  padding: 15px 25px;
+  background-color: #f26522;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+    
+
+
+/* last one */
